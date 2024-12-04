@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title My Dynamic Page
+  body
+    h1 Hello, #{dynamicData.name}!
+    p You are #{dynamicData.age} years old.
+    p Your hobbies are:
+      ul
+        each hobby in dynamicData.hobbies
+          li #{hobby}

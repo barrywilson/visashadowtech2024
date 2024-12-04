@@ -1,0 +1,18 @@
+{
+  "name": "visashadowtech2024",
+  "version": "1.0.0",
+  "description": "A shared location for building a simple chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "pug": "^3.0.3"
+  }
+}
