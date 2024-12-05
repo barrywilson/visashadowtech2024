@@ -1,5 +1,5 @@
-const express = require('express');
-const pug = require('pug');
+import express from 'express';
+import pug from 'pug';
 
 const app = express();
 const port = 3000;
