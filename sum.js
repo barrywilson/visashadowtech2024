@@ -1,7 +1,9 @@
 // sum.js
-function sum(a, b) {
+const sum = (a, b) => {
     return a + b;
-  }
+}
   
-  module.exports = sum;
+
+export default sum
+
   
