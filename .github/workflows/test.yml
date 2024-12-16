@@ -39,4 +39,4 @@ jobs:
       - name: Use Secret
         run: |
           echo "Using the secret securely."
-          echo "${{ secrets.MY_SECRET_KEY }}" > secret_file.txt
+          echo "${{ secrets.MY_SMY_SECRET_SAMPLE }}" > secret_file.txt
