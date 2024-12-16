@@ -1,3 +1,5 @@
+console.log(process.env.MY_SECRET_KEY)
+
 export default {
   testEnvironment: 'node', // Specify the test environment
   verbose: true, // Increase verbosity of test output
@@ -6,3 +8,5 @@ export default {
     "^.+\\.js$": "babel-jest",
   }
 }
+
+
