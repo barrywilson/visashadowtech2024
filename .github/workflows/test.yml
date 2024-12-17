@@ -34,9 +34,9 @@ jobs:
       - name: Print Secret (safe way)
         run: echo "The secret is set!"
         env:
-          MY_SECRET_KEY: ${{ secrets.MY_SECRET_SAMPLE }}
+          MY_SECRET_KEY: ${{ secrets.MY_SECRET_KEY }}
 
       - name: Use Secret
         run: |
           echo "Using the secret securely."
-          echo "${{ secrets.MY_SECRET_SAMPLE }}" > secret_file.txt
+          echo "${{ secrets.MY_SECRET_KEY }}" > secret_file.txt
