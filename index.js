@@ -1,6 +1,15 @@
 import express from 'express';
 import pug from 'pug';
 
+const apiKey = process.env.MY_SECRET_KEY;
+
+if (!apiKey) {
+  console.error('API Key is missing!');  
+}
+
+// Use the API key for making requests to an API
+console.log('API Key:', apiKey);
+
 const app = express();
 const port = 3000;
 
