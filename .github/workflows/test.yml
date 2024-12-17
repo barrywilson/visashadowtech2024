@@ -34,7 +34,7 @@ jobs:
       - name: Print Secret (safe way)
         run: echo "The secret is set!"
         env:
-          MY_SECRET_KEY: ${{ secrets.MY_SECRET_KEY }}
+          MY_SECRET_KEY: 'does this work'
 
       - name: Use Secret
         run: |
