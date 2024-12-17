@@ -1,4 +1,4 @@
-console.log({jest_test_key:process.env.MY_SECRET_KEY})
+console.log({jest_test_key:process.env.API_KEY})
 
 export default {
   testEnvironment: 'node', // Specify the test environment

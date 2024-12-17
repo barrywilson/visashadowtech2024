@@ -1,5 +1,8 @@
 import express from 'express';
 import pug from 'pug';
+import config from 'dotenv';
+
+console.log(process.env)
 
 const apiKey = process.env.MY_SECRET_KEY;
 
