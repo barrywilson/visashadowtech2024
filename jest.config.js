@@ -1,6 +1,6 @@
-console.log({jest_test_key:process.env.API_KEY})
-const apiKey = `${process.env.API_KEY}-hidden`;
-console.log({apiKey}); // string
+import 'dotenv/config';//accessing api key locally using .env file
+
+const apiKey = `${process.env.API_KEY}`
 
 export default {
   testEnvironment: 'node', // Specify the test environment
