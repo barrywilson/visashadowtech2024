@@ -1,17 +1,10 @@
 import express from 'express';
 import pug from 'pug';
-import config from 'dotenv';
 
-console.log(process.env)
+// Import and configure dotenv using ES6 syntax
+import 'dotenv/config';//accessing api key locally using env file
 
-const apiKey = process.env.MY_SECRET_KEY;
-
-if (!apiKey) {
-  console.error('API Key is missing!');  
-}
-
-// Use the API key for making requests to an API
-console.log('API Key:', apiKey);
+console.log(process.env.API_KEY);
 
 const app = express();
 const port = 3000;
