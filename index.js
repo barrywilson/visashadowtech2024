@@ -2,7 +2,7 @@ import express from 'express';
 import pug from 'pug';
 
 // Import and configure dotenv using ES6 syntax
-import 'dotenv/config';//accessing api key locally using env file
+import 'dotenv/config';//accessing api key locally using .env file
 
 console.log(process.env.API_KEY);
 

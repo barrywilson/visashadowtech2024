@@ -1,4 +1,6 @@
 console.log({jest_test_key:process.env.API_KEY})
+const apiKey = `${process.env.API_KEY}`;
+console.log(typeof apiKey, apiKey); // string
 
 export default {
   testEnvironment: 'node', // Specify the test environment
